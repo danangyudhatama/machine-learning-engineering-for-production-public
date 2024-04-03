@@ -5,7 +5,7 @@ from fastapi import FastAPI
 from pydantic import BaseModel, conlist
 
 
-#test ci/cd pipeline
+#test ci/cd pipeline will be trigger runner
 app = FastAPI(title="Predicting Wine Class with batching")
 
 # Open classifier in global scope
